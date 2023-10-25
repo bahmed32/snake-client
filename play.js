@@ -13,5 +13,11 @@ const connect = function() {
   return conn;
 };
 
+// listen for incoming data
+
+connection.on('data', (data) => {
+  console.log('server says:', data);
+});
+
 console.log("Connecting ...");
 connect();
