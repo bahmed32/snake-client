@@ -32,7 +32,7 @@ const connect = function() {
 
 
 // module.exports = {connect}
-connect();
+// connect();
 
 module.exports = {
   connect
