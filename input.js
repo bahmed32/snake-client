@@ -31,6 +31,9 @@ const handleUserInput = function(data) {
   if (data === 'd') {
     connection.write("Move: right");
   }
+  if (data === '3') {
+    connection.write("Say: Hi");
+  }
 
 
 };
